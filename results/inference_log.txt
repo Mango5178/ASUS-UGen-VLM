@@ -1,0 +1,51 @@
+=====================================================================
+⏱️  Step 2: ONNX 推論時間量測
+======================================================================
+   測試圖片: 30 張 (EO 15 + IR 15)
+   Input: images, shape=[1, 3, 640, 640]
+   Output: ['output0']
+   Output shape: (1, 7, 8400)
+   Output dtype: float32
+
+📊 CPU 推論時間 (ONNX Runtime CPUExecutionProvider)
+   Mean:   109.19 ms
+   Median: 105.92 ms
+   P95:    118.56 ms
+   Min:    101.84 ms
+   Max:    162.02 ms
+   FPS:    9.2
+
+======================================================================
+🎯 Step 3: Hailo-10H (UGen300) 預估
+======================================================================
+   硬體: Hailo-10H (ASUS UGen300), 40 TOPS INT4 / 20 TOPS INT8
+   預估推論: ~12.0 ms / image
+   預估 FPS: ~83.3
+   模型 (FP32): 12.18 MB (best.onnx)
+   模型 (INT8): ~4.87 MB (12.18 * 0.4)
+   加速比 (CPU → Hailo): 9.1×
+
+======================================================================
+📄 Step 4: 產出
+======================================================================
+  ONNX 模型:    /content/ugen_work/models/best.onnx (also models/best.onnx in repo, 12.18 MB)
+  JSON log:     results/benchmark/benchmark_log.json
+  Markdown:     results/benchmark/benchmark_report.md
+
+======================================================================
+📋 可直接貼進提案的數字 (from cell_onnx_fix.py)
+======================================================================
+
+【ONNX 模型大小】    12.18 MB
+【測試集】           30 張 (EO 15 + IR 15)
+
+【CPU 推論時間】     109.19 ms (mean)
+【CPU 吞吐量】       9.2 FPS
+【CPU P95 延遲】     118.56 ms
+【CPU Median】       105.92 ms
+
+【Hailo-10H 預估】   ~12.0 ms / image
+【Hailo 預估 FPS】   ~83.3 FPS
+【加速比】           9.1× (CPU → Hailo-10H)
+
+✅ 全部完成! 把上面的數字貼進提案的「預期效益」段落

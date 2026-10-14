@@ -10,18 +10,8 @@
 [![Platform: ASUS UGen300 + Hailo-10H](https://img.shields.io/badge/platform-ASUS%20UGen300%20%2B%20Hailo--10H-214478)](https://www.asus.com)
 [![ONNX: Ready](https://img.shields.io/badge/ONNX-exported-green)](https://onnx.ai)
 
-**▶️ One-Click Colab:** https://colab.research.google.com/drive/1t8fAJvJTvs8IVvYGcZohkxGd5TGmSHzd?usp=sharing — paste `solar_pipeline.py` into a single cell, no Drive mount required.
 
----
-
-## Demo Video
-
-<video width="100%" controls>
-  <source src="assets/Demo.mp4" type="video/mp4">
-  Your browser does not support the video tag. Download: <a href="assets/Demo.mp4">assets/Demo.mp4</a>
-</video>
-
-> If the video does not autoplay on GitHub, click: [assets/Demo.mp4](assets/Demo.mp4) or download the 4 MB MP4. Also rendered via GitHub's native video player.
+## Demo Video(https://youtu.be/CMVKnNm15r0)
 
 ---
 

@@ -10,7 +10,7 @@
 [![Platform: ASUS UGen300 + Hailo-10H](https://img.shields.io/badge/platform-ASUS%20UGen300%20%2B%20Hailo--10H-214478)](https://www.asus.com)
 [![ONNX: Ready](https://img.shields.io/badge/ONNX-exported-green)](https://onnx.ai)
 
-## Demo Video(https://youtu.be/CMVKnNm15r0)
+## [Demo Video](https://youtu.be/CMVKnNm15r0)
 
 
 ---

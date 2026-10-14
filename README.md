@@ -1,15 +1,14 @@
-# Think in the Cloud, React at the Edge — ASUS-UGen-VLM
+# Think in the Cloud, React at the Edge — 【ASUS UGen AI LEAGUE】
 
 ### Dual-Modal (RGB + Thermal IR) PV Defect Detection and Root-Cause Analysis on ASUS UGen300
 
-> **Team ASV-PV-Inspector** | NYCU ASUS UGen300 Challenge
+> **Team Mango5178** |  
 > One pipeline, two phases: **heavy thinking happens once, offline — the edge only detects, fuses, and retrieves.**
 
 [![Model: YOLOv8s-seg](https://img.shields.io/badge/model-YOLOv8s--seg-blue)](https://github.com/ultralytics/ultralytics)
 [![Platform: ASUS UGen300](https://img.shields.io/badge/platform-ASUS%20UGen300-214478)](https://www.asus.com)
 [![Training: Colab T4](https://img.shields.io/badge/training-Colab%20T4-orange)](https://colab.research.google.com)
 [![KB: JSON](https://img.shields.io/badge/KB-JSON%20%7C%20Git--versioned-green)]()
-[![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey)]()
 
 ---
 
